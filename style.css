@@ -193,6 +193,11 @@ ul {
   display: none;
 }
 
+/* .sticky {
+  position: sticky;
+  top: 0px;
+} */
+
 /* /////////////////////////////////////////////////////////////////// */
 /* HEADER */
 
@@ -456,11 +461,13 @@ figcaption {
 /* MEDIA QUERIES */
 @media (min-width: 48em) {
   .nav-cont {
-    position: sticky;
-    top: 0px;
     justify-content: space-around;
     height: 80px;
+    position: sticky;
+    width: 100%;
+    top: 0px;
   }
+
   .nav--list-btns,
   .nav-cont label {
     display: none;
